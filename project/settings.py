@@ -26,7 +26,7 @@ env = environ.Env()
 environ.Env.read_env()
 
 # Secret key
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-z)og%d(wvjwyo-wo9$06!n9z*90n2fnkzb)++%^q_tphi8pe3n'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -123,7 +123,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
